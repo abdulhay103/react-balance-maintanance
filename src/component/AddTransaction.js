@@ -6,6 +6,7 @@ export const AddTransaction = () => {
   const [amount, setAmount] = useState("");
   const { addTransection } = useContext(GlobalContext);
 
+  // Submit Controler
   const onSubmitHandler = e => {
     e.preventDefault();
     const newTransection = {
